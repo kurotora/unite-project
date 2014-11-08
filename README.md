@@ -3,8 +3,7 @@
 
 ##概要
 
-Project.vim用のプロジェクト定義ファイルから
-ファイルリストを取得し、unite.vimのsourceを作成するプラグインです。
+Project.vim用のプロジェクト定義ファイルからunite.vimのsourceを作成するプラグインです。
 
 
 ##コマンド
