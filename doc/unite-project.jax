@@ -6,39 +6,39 @@ License: VIM LICENSE
 
 
 =================================================================================
-目次                            *unite-project-contents*
+目次                                        *unite-project-contents*
 
-概要                            |unite-project-introduction|
-インターフェース                |unite-project-interface|
- コマンド                       |unite-project-commands|
-カスタマイズ                    |unite-project-castomizing|
-更新履歴                        |unite-project-changelog|
+概要                    |unite-project-introduction|
+インターフェース        |unite-project-interface|
+ コマンド               |unite-project-commands|
+カスタマイズ            |unite-project-castomizing|
+更新履歴                |unite-project-changelog|
 
 =================================================================================
-概要                            *unite-project-introduction*
+概要                                        *unite-project-introduction*
 
 *unite-project*は、Project.vim用のプロジェクト定義ファイルから
 ファイルリストを取得し、unite.vimのsourceを作成するプラグインです。
 
 =================================================================================
-インターフェース                *unite-project-interface*
+インターフェース                            *unite-project-interface*
 
 ---------------------------------------------------------------------------------
-コマンド                        *unite-project-commands*
+コマンド                                    *unite-project-commands*
 
-:Unite project_files            *project_files*
+:Unite project_files                        *project_files*
     Uniteコマンドに*project_files*を指定して実行。
     g:unite-project_target_fileで指定されたプロジェクト定義ファイルが使用される。
 
 =================================================================================
-カスタマイズ                    *unite-project-castomizing*
+カスタマイズ                                *unite-project-castomizing*
 
-g:unite-project_target_file     *g:unite_project_target_file*
+g:unite-project_target_file                 *g:unite_project_target_file*
 Project.vimのプロジェクト定義ファイルのパスの指定。
 デフォルトはカレントディレクトリの'.vimprojects'が設定される。
 
 =================================================================================
-更新履歴                        *unite-project-changelog*
+更新履歴                                    *unite-project-changelog*
 
 1.0     2014-11-08
         - 初版。
