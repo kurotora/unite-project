@@ -9,13 +9,13 @@ Project.vim用のプロジェクト定義ファイルから
 
 ##コマンド
 
-#:Unite project_files
+###:Unite project_files
     Uniteコマンドにproject_filesを指定して実行。
     g:unite-project_target_fileで指定されたプロジェクト定義ファイルが使用される。
 
 
 ##カスタマイズ
 
-#g:unite-project_target_file
+###g:unite-project_target_file
 Project.vimのプロジェクト定義ファイルのパスの指定。
 デフォルトはカレントディレクトリの'.vimprojects'が設定される。
