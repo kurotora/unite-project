@@ -10,8 +10,8 @@ Project.vim用のプロジェクト定義ファイルから
 ##コマンド
 
 ###:Unite project_files
-    Uniteコマンドにproject_filesを指定して実行。
-    g:unite-project_target_fileで指定されたプロジェクト定義ファイルが使用される。
+Uniteコマンドにproject_filesを指定して実行。
+g:unite-project_target_fileで指定されたプロジェクト定義ファイルが使用される。
 
 
 ##カスタマイズ
