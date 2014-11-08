@@ -56,15 +56,6 @@ function! s:source.gather_candidates(args, context)
     return candidates
 endfunction
 
-function! unite#sources#project_files#Pri()
-    return map(unite#sources#project_files#GetFileList(), "{
-                \ 'word' : v:val.file,
-                \ 'kind' : 'file',
-                \ 'action__path' : v:val.dir . '/' .  v:val.file,
-                \}")
-    "return s:GetFileList()
-endfunction
-
 let &cpo = s:save_cpo
 unlet s:save_cpo
 
